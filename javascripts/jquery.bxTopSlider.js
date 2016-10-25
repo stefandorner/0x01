@@ -1,5 +1,5 @@
 ! function (a) {
-    a.fn.BloggerDynamicSlider = function (b) {
+    a.fn.TopSlider = function (b) {
         var c = a.extend({
             blogURL: "", labelName: "", maxItem: 6, showPostTitle: true, postTitleStyle: "default", imageWidth: 544, imageHeight: 280, animation: "fade", controlNav: true, directionNav: true, pauseOnHover: false, slideshowSpeed: 7000, animationSpeed: 600, animationLoop: true,
         }, b);

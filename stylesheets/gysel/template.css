@@ -1,0 +1,425 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+h3.title span{
+    color: rgb(92, 169, 76);
+    display: block;
+    position: relative;
+    font-size: 1.3em;
+}
+h3.title {
+    color: rgb(92, 169, 76);
+    text-align: center;
+    font-size: 1.3em;
+    margin-bottom: 3em;
+}
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  /*position: absolute;*/
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+.navbar {
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+/* The header of the navbar */
+.navbar-header {
+    text-align: center;
+    margin: 10px;
+}
+
+/* The website name */
+.navbar-brand {
+    float: none !important;
+}
+
+.navbar-brand img {
+    height: 60px;
+}
+
+
+/* All Components */
+
+
+
+/* BANNER */
+.banner{
+	background: url(//c2.staticflickr.com/4/3042/2430568162_36fd1f6897_b.jpg) no-repeat 0px 0px;
+	background-size: cover;
+	min-height:400px;
+	position:relative;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+}
+
+
+
+.banner-title {
+    padding: 14em 0px;
+	position: relative;
+}
+.banner-text h2,.banner-text h3 {
+    font-size: 4em;
+    color: #fff;
+	text-transform: capitalize;
+}
+.banner-text p {
+    font-size: 14px;
+    color: #EAEAEA;
+    margin: 1em 0;
+    letter-spacing: 1px;
+    width: 30%;
+    line-height: 1.8em;
+}
+
+.banner-container {
+    position: relative;
+    width: 100%;
+    margin: 8% auto 8%;
+    background: none repeat scroll 0% 0% #808080;
+}
+
+.slider-banner-nav {
+    position: absolute;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    top: 47%;
+    left: 6%;
+    z-index: 3;
+    overflow: hidden;
+    text-decoration: none;
+}
+.slider-banner-nav.next {
+	left: auto;	
+    right: 6%;
+}
+
+/* PARTNER */
+
+.partners{
+    background: #fff;
+}
+
+.partners-heading
+{
+    text-align: center;
+}
+
+.partners .container .bx-wrapper {
+    margin: 3em auto 0;
+    width: 70%;
+    text-align: center;
+}
+
+.partnerSlider li a .separator{
+    margin: 3em auto 0;
+    width: 70%;
+    text-align: center;
+}
+
+.partners .bx-wrapper img {
+    display: inline !important;
+}
+
+/* MASCHINEN */
+
+.maschinen{
+    background: #fff;
+}
+
+.maschinen-heading
+{
+    text-align: center;
+}
+
+.maschinen p
+{
+    text-align: center;
+    color: rgba(30, 35, 37, 1);
+}
+
+.maschinen .container
+{
+    padding-bottom: 20px;
+}
+
+
+/* ABOUT US */
+
+.aboutus{
+    background: #fff;
+}
+
+.aboutus-heading
+{
+    text-align: center;
+}
+
+.aboutus p
+{
+    text-align: center;
+    color: rgba(30, 35, 37, 1);
+}
+
+.aboutus .container
+{
+    padding-bottom: 20px;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+
+
+
+/*	FOOTER 1-2
+/*----------------------------------------------------*/
+
+.footer-1-2 {
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+.footer-1-2 .brand-img {
+	margin: 0 auto;
+	width: 150px;
+}
+
+
+
+
+
+/*	FOOTER 1-3
+/*----------------------------------------------------*/
+
+.footer-1-3 {
+    background-color: #1e2325;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+
+.footer-1-3 .brand-img {
+	width: 180px;
+}
+
+.footer-1-3 .social {
+	margin-top: 20px;
+}
+
+.footer-1-3 .address-bold-line {
+	font-weight: 700;
+	margin: 0;
+	color: #ffffff;
+}
+
+.footer-1-3 .address {
+	color: #ffffff;
+}
+
+.footer-1-3 .footer-text {
+	border-top: #ecf0f1 1px solid;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.footer-1-3 .footer-text p {
+	color: #ecf0f1;
+	
+}
+
+.footer-1-3 .logo {
+	height: 50px;
+	
+}
+
+/*	FOOTER 1-3 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+
+@media (min-width: 768px)
+{
+    .navbar-call {
+        visibility: collapse;
+    }
+}
+@media (max-width: 768px) {
+    .navbar-call {
+        border-color: #eeeeee !important;
+        border: 1px solid transparent;
+        margin-right: 15px;
+        border-radius: 4px;
+        padding: 2px 10px;
+        float: right;
+        position: relative;
+        visibility: visible;
+    }
+    .banner-title {
+		padding:3em 0;
+	}
+	.banner-text p {
+		margin: 0.5em 0;
+	}
+	.banner-text {
+		margin-left: 0;
+	}
+    .banner{
+	    min-height:250px;
+    }
+}
+
+
+
+.bx-wrapper .bx-viewport{
+    border: 0px !important;
+    background: none !important;
+    left: 0px !important;
+    box-shadow: none !important;
+}
+
+.bx-wrapper .bx-default-pager.bx-pager a:hover, .bx-wrapper .bx-default-pager.bx-pager a.active
+{
+    background: rgb(92, 169, 76) !important;
+}
+
+/*	SERVICES  */
+/*----------------------------------------------------*/
+
+.services {
+    padding: 5em 0;
+    background: url(//gysel.azurewebsites.net/Custom/Themes/Gysel/images/services.jpg) fixed;
+    background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+}
+
+.services h3.title span,.testimonials h3.title span{
+	color: rgb(92, 169, 76);
+}
+.services h3.title span:before,.services h3.title span:after,.testimonials h3.title span:before,.testimonials h3.title span:after{
+    background: #fff;
+}
+.services h3.title span:after{
+	right:31% !important;
+}
+.services h3.title span:before {
+    left: 31% !important;
+}
+.work-row-grids {
+    text-align: center;
+    margin:3em 0;
+}
+.work-row-grids h4 {
+    font-size: 1.4em;
+    color: #fff;
+    margin: .5em 0 .2em;
+    line-height: 1.6em;
+	text-transform: capitalize;
+}
+.work-row-grids p {
+  font-size: 1em;
+  color: #847F7F;
+  line-height: 1.5em;
+  width: 60%;
+  margin: 0 auto;
+}
+.work-row-grids p {
+    font-size: 14px;
+    color: #B7B1B1;
+    line-height: 1.5em;
+    width: 50%;
+    margin: 0 auto;
+}
+.work-grids-img img {
+    border: 1px solid #555;
+    padding: 16px;
+    border-radius: 68px;
+}
+.work-grids-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background:rgb(92, 169, 76);
+    border: 2px solid white;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.work-row-grids span.fa {
+    font-size: 2.5em;
+    text-align: center;
+    padding: 0.55em 0.2em;
+    color: #fff;
+}
+.work-grids-img span{
+  position: relative;
+  z-index: 100;
+  transition: all 0.3s ease 0s;
+}
+
+
+
+/*	Back To Top  */
+/*----------------------------------------------------*/
+
+#BackToTop {
+	text-decoration: none;
+	position: fixed;
+	bottom: 3%;
+	right: 5%;
+	overflow: hidden;
+	border: none;
+	cursor: pointer;
+    display: none;
+}
+#BackToTopHover {
+	display: block;
+	overflow: hidden;
+	float: right;
+}

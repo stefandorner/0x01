@@ -83,7 +83,9 @@ h3.title {
 
 /* All Components */
 
-
+.bx-wrapper {
+	box-shadow: none;
+}
 
 /* BANNER */
 .banner{

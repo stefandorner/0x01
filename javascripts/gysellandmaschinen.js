@@ -27,7 +27,7 @@
             blogURL: '',
             labelName: '',
             maxItem: 6,
-            showPostTitle: true, postTitleStyle: 'default', imageWidth: 544, imageHeight: 280, animation: 'fade', controlNav: true, directionNav: true, pauseOnHover: false, slideshowSpeed: 7000, animationSpeed: 600, animationLoop: true,
+            showPostTitle: true, postTitleStyle: 'maschinenPost', imageWidth: 544, imageHeight: 280, animation: 'fade', controlNav: true, directionNav: true, pauseOnHover: false, slideshowSpeed: 7000, animationSpeed: 600, animationLoop: true,
         }, b);
         return this.each(function () {
             var b = a(this), d = b.attr("id"), e = c.blogURL + "/feeds/posts/default/" + (0 == c.labelName.length ? '' : "-/" + c.labelName.replace(/\,(\s+)?/g, "/")) + "?max-results=" + c.maxItem + "&orderby=published&alt=json-in-script"; a.ajax({

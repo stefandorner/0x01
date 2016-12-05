@@ -204,7 +204,8 @@ h3.title {
   border-bottom-right-radius:75px;
 
 }
-.slider-maschinen-nav {    position: absolute;    -webkit-tap-highlight-color: rgba(0,0,0,0);    top: 47%;    left: 6%;    z-index: 3;    overflow: hidden;    text-decoration: none;}.slider-maschinen-nav.next { left: auto;     right: 6%;}
+.slider-maschinen-nav {    position: absolute;    -webkit-tap-highlight-color: rgba(0,0,0,0);    top: 47%;    left: 6%;    z-index: 3;    overflow: hidden;    text-decoration: none;} 
+.slider-maschinen-nav.next { left: auto;     right: 6%;}
 /* ABOUT US */
 
 .aboutus{

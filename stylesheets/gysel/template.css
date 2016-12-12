@@ -246,7 +246,7 @@ h3.title {
 .services ul
 {
   list-style-type: none;
-
+	align-items: center;
 }
 
 /* CUSTOMIZE THE CAROUSEL

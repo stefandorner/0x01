@@ -241,6 +241,13 @@ h3.title {
     padding-bottom: 20px;
 }
 
+/* Dienstleistungen */
+
+.services ul
+{
+  list-style-type: none;
+
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */

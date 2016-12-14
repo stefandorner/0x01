@@ -61,7 +61,7 @@
                         for (i = e[g], j = i.title.$t, content = i.content.$t, k = i.media$thumbnail ? i.media$thumbnail.url : "http://3.bp.blogspot.com/-sWtp_qRPNT8/UZYmQq5sAdI/AAAAAAAAEec/7YDbpK4Q6g8/s72-c/default+image.png", l = k.replace("s72-c", "w" + c.imageWidth + "-h" + c.imageHeight + "-c"), m = i.link || [], h = 0; h < m.length && "alternate" != m[h].rel; ++h); css = (g == 0) ? 'active' : '', n = m[h].href, o = '<img src="' + l + '"/>', p = c.showPostTitle ? '<p class="carousel-caption' + ("default" == c.postTitleStyle ? '' : " " + c.postTitleStyle) + '"><span>' + j + "</span></p>" : '', q = '<a href="' + n + '" target="_self" title="' + j + '">' + content + "</a>", f += "<li>" + p + q + "</li>"
                     } f += '', b.append(f)
                 }, error: function (a, c, d) { b.append('<div class="error"><p>Keine Maschinen gefunden oder Fehler beim Laden der Angebote</p></div') },
-                complete: function () { a("#" + d).bxSlider({pager: false, auto: true, captions: true, mode: 'fade'}); }
+                complete: function () { a("#" + d).bxSlider({pager: false, auto: true, captions: true, mode: 'fade',adaptiveHeight: true,slideWidth: 300}); }
             })
         })
     }

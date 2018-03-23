@@ -1,0 +1,251 @@
+/*
+ * Override Bootstrap's defaults and custom CSS.
+ */
+
+.jumbotron{margin-bottom: 0;}
+    	.wn-header{padding-bottom: 0;margin-bottom: 0;}
+
+@media (min-width: 48em) {
+html {
+font-size: 18px;
+}
+}
+
+body {
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+color: #555;
+/*background-color: #FFFDE7;*/
+font-size: 20px;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+font-weight: normal;
+}
+
+
+/* Header, Title and Description */
+
+.	 {
+padding-bottom: 1.25rem;
+margin-bottom: 2rem;
+
+}
+
+.wn-title {
+margin-bottom: 0;
+font-size: 2rem;
+font-weight: normal;
+}
+
+.wn-description {
+font-size: 1.1rem;
+color: #999;
+}
+
+@media (min-width: 40em) {
+.wn-title {
+font-size: 3.5rem;
+}
+}
+
+/* Main Container and Sidebar */
+
+.sidebar-module {
+margin-bottom: 20px;
+}
+
+.sidebar-module-inset {
+padding: 1rem;
+background-color: #f5f5f5;
+border-radius: .25rem;
+}
+
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+
+/* Pagination */
+.wn-pagination {
+  margin-bottom: 4rem;
+}
+.wn-pagination > .btn {
+  border-radius: 2rem;
+}
+
+
+/* Article */
+
+.wn-post {
+  margin-bottom: 4rem;
+}
+.wn-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+.wn-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+
+
+/* Footer */
+
+.wn-footer {
+  padding: 2.5rem 0;
+ 
+  text-align: center;
+color: white;
+    background-color: #607D8B;
+  border-top: .05rem solid #e5e5e5;
+}
+.wn-footer p:last-child {
+  margin-bottom: 0;
+}
+.wn-footer a {
+    color: yellow;
+}
+
+/* Custom Jumbotron */
+.jumbotron{
+color: #990000;
+text-align: center;
+border-radius: 0;
+}
+
+/* Button Custom CSS */
+
+.btn-md {
+border-width: 0;
+outline: none;
+border-radius: 2px;
+box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+/* transition: .2s ease-out; */
+cursor: pointer;
+}
+
+/* Alerts Custom CSS */
+
+.alert-md {
+border-width: 0;
+outline: none;
+border-radius: 2px;
+box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+/* transition: .2s ease-out; */
+}
+
+
+/* Header Parallax Element Style*/ 
+.paral {
+min-height: 600px;
+background-attachment: fixed;
+background-size: cover;
+background-position: 50% 50%;
+}
+
+
+.paral1 {
+background-attachment: fixed;
+background-size: cover;
+background-position: 50% 50%;
+}
+
+/* Paragrapgh for Parallax Section */ 
+.paral p, .paral1 p {
+font-size: 24px;
+color:#f5f5f5;
+text-align: center;
+line-height: 60px;
+}
+
+/* Heading for Parallax Section */ 
+.paral h1, .paral1 h1 {
+color: rgba(255, 255, 255, 0.8);
+font-size: 60px;
+text-align: center;
+padding-top: 60px;
+line-height: 100px;
+}
+
+/* Image for Parallax Section */ 
+.paralsec {
+background-image: url("https://img.webnots.com/2017/05/parallax.jpg");
+}
+
+.paralsec1 {
+background-image: url("https://img.webnots.com/2017/05/parallax1.jpg");}
+
+.paralsec2 {
+color: #000;
+background-color: rgb(255, 255, 255);
+}
+
+.paralsec3 {
+background-image: url("https://img.webnots.com/2015/11/parallax1.jpg");
+}
+
+.paralsec4 {
+background-image: url("https://img.webnots.com/2015/11/parallax3.jpg");
+}
+
+/* Img hover Effect
+.card:hover img {
+-webkit-filter: brightness(0.50);
+cursor: crosshair;
+}
+.card img {
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+*/
+
+/* Google Ads */
+.googleads {
+    margin: 40px 0;
+}
+
+/* H4 Custom Heading */
+.headalign{
+    margin: 3rem 0;
+    font-size: 1.25rem;
+    color: blueviolet;
+    border: 1px solid lightgray;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    color:blueviolet;
+}
+
+/* Sidebar Link */
+.enabled {
+background-color: rgba(255, 152, 0, 0.23);
+    border-color: lightgrey;
+    border-left: 5px solid #607D8B !important;
+}
+
+.list-group a{text-decoration: none;}
+
+/* Custom Search */
+.cse-google {
+    border-radius: 5px;
+    line-height: 2rem;
+}
+
+/* About Heading */
+.abouthead {
+color:yellow;
+}
+
+.abouthead:hover{
+color:white;
+text-decoration:none;
+}

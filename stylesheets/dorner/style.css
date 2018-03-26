@@ -31,70 +31,10 @@ font-weight: normal;
 
 /* Header, Title and Description */
 
-.	 {
-padding-bottom: 1.25rem;
-margin-bottom: 2rem;
-
-}
-
-.wn-title {
-margin-bottom: 0;
-font-size: 2rem;
-font-weight: normal;
-}
-
-.wn-description {
-font-size: 1.1rem;
-color: #999;
-}
-
-@media (min-width: 40em) {
-.wn-title {
-font-size: 3.5rem;
-}
-}
 
 /* Main Container and Sidebar */
 
-.sidebar-module {
-margin-bottom: 20px;
-}
 
-.sidebar-module-inset {
-padding: 1rem;
-background-color: #f5f5f5;
-border-radius: .25rem;
-}
-
-.sidebar-module-inset p:last-child,
-.sidebar-module-inset ul:last-child,
-.sidebar-module-inset ol:last-child {
-  margin-bottom: 0;
-}
-
-
-/* Pagination */
-.wn-pagination {
-  margin-bottom: 4rem;
-}
-.wn-pagination > .btn {
-  border-radius: 2rem;
-}
-
-
-/* Article */
-
-.wn-post {
-  margin-bottom: 4rem;
-}
-.wn-post-title {
-  margin-bottom: .25rem;
-  font-size: 2.5rem;
-}
-.wn-post-meta {
-  margin-bottom: 1.25rem;
-  color: #999;
-}
 
 
 /* Footer */
@@ -119,28 +59,6 @@ color: white;
 color: #990000;
 border-radius: 0;
 }
-
-/* Button Custom CSS */
-
-.btn-md {
-border-width: 0;
-outline: none;
-border-radius: 2px;
-box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
-/* transition: .2s ease-out; */
-cursor: pointer;
-}
-
-/* Alerts Custom CSS */
-
-.alert-md {
-border-width: 0;
-outline: none;
-border-radius: 2px;
-box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
-/* transition: .2s ease-out; */
-}
-
 
 /* Header Parallax Element Style*/ 
 .paral {
@@ -222,48 +140,4 @@ background-image: url("/stylesheets/dorner/Od8334mG.jpg");
 
 .paralsec4 {
 background-image: url("contact.jpg");
-}
-
-/* Img hover Effect
-.card:hover img {
--webkit-filter: brightness(0.50);
-cursor: crosshair;
-}
-.card img {
--webkit-transition: all 0.7s ease;
-transition: all 0.7s ease;
-}
-*/
-
-
-/* H4 Custom Heading */
-.headalign{
-    margin: 3rem 0;
-    font-size: 1.25rem;
-    color: blueviolet;
-    border: 1px solid lightgray;
-    padding: 10px;
-    text-align: center;
-    border-radius: 20px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
-    color:blueviolet;
-}
-
-/* Sidebar Link */
-.enabled {
-background-color: rgba(255, 152, 0, 0.23);
-    border-color: lightgrey;
-    border-left: 5px solid #607D8B !important;
-}
-
-.list-group a{text-decoration: none;}
-
-/* About Heading */
-.abouthead {
-color:yellow;
-}
-
-.abouthead:hover{
-color:white;
-text-decoration:none;
 }

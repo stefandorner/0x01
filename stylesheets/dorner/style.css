@@ -186,7 +186,6 @@ background-size: cover;
 background-position: 50% 50%;
 z-index:9999;
 color: black;
-text-align: center;
 border-radius: 0;
 padding: 10em 3em 8em 0;
 -webkit-transition: 0.7s ease;
@@ -200,8 +199,6 @@ transition: 0.7s ease;
 			position: relative;
 			z-index: 10000;
 			line-height: 1.5;
--webkit-transition: 0.7s ease;
-transition: 0.7s ease;
 		}
 
 
@@ -209,8 +206,6 @@ transition: 0.7s ease;
 #banner .inner h1 {
 margin: 0 auto;
 font-weight: 600;
--webkit-transition: 0.7s ease;
-transition: 0.7s ease;
 
 }
 

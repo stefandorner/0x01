@@ -3,7 +3,6 @@
  */
 
 .jumbotron{margin-bottom: 0;}
-    	.wn-header{padding-bottom: 0;margin-bottom: 0;}
 
 @media (min-width: 48em) {
 html {
@@ -141,3 +140,74 @@ background-image: url("/stylesheets/dorner/Od8334mG.jpg");
 .paralsec4 {
 background-image: url("contact.jpg");
 }
+
+
+
+.affix {
+ background-color: #000;
+ opacity: 0.9;
+ -webkit-transition: 0.5s ease;
+ -moz-transition: 0.5s ease;
+ -o-transition: 0.5s ease;
+ transition: 0.5s ease;
+
+}
+@media (min-width:768px) {
+ .affix-top {      /* navbar style at top */
+  background-color:transparent;
+  border-color:transparent;
+ -webkit-transition: 0.5s ease;
+ -moz-transition: 0.5s ease;
+ -o-transition: 0.5s ease;
+ transition: 0.5s ease;
+
+ }
+}
+nav .navbar-nav .nav-link,nav .navbar-brand {
+ color: white;
+letter-spacing: 0.05rem;
+text-transform: uppercase;
+font-size: 0.7em;
+}
+
+
+#nav.affix .container a {
+  color:#fff;
+letter-spacing: 0.03rem;
+text-transform: uppercase;
+font-size: 0.7em;
+}
+
+#nav.affix .nav-item a {
+  color:#fff;
+letter-spacing: 0.03rem;
+text-transform: uppercase;
+font-size: 0.7em;
+}
+
+
+#nav.affix-top .nav-item a {
+  color:#000;
+letter-spacing: 0.03rem;
+text-transform: uppercase;
+font-size: 0.7em;
+}
+
+#nav.affix-top .container a {
+  color:#000;
+letter-spacing: 0.03rem;
+text-transform: uppercase;
+font-size: 0.7em;
+}
+
+.card{
+	border: none !Important;
+	margin-left: 0px !important;
+}
+
+.card-body {
+color: #blue;
+padding: 20% !important
+
+}
+
